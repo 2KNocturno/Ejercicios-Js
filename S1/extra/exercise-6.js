@@ -1,3 +1,5 @@
+const goodProducts = [];
+const badProducts = [];
 const products = [
                 {name: 'Gorra de rodilla', sellCount: 10},
                 {name: 'Pantalón de pana', sellCount: 302},
@@ -5,11 +7,7 @@ const products = [
                 {name: 'Inpar de zapatos', sellCount: 6}
 ];
 
-let sumaTotal = 0;
-
 for (let i = 0; i < products.length; i++) {
-    const precio = products[i];
-    sumaTotal += precio.sellCount
+    const element = products[i];
+    
 }
-
-console.log(sumaTotal);
