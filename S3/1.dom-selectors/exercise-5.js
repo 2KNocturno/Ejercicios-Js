@@ -1,2 +1,2 @@
-let test = document.querySelector (".testMe")
-console.log (test)
+let span = document.querySelectorAll('[data-function="testMe"]');
+console.log(span)
